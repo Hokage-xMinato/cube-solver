@@ -916,36 +916,15 @@ body{text-shadow:none !important;background-image:none !important}
 	
 		
 </header>
-<!--<section>
-	<div id="simulator">
-		<div id="wrapCubeControls">
-			<div id="cubeControls">
-				<a onclick="cube.shuffle(10);" id="shuffleToPlay">Scramble</a>
-				<a href="/play/" id="fullSizeIcon" title="Full screen">Play</a>
-			</div>
-		</div>
-		<div id="container" ></div>
-		<div id="fail">
-		</div>
-		<div class="sectionHelp" id="simulatorHelp">
-			<span title="Help">?</span>
-			<h2>Rubik's Cube Simulator</h2>
-			<p>Play with the online cube simulator on your computer or on your mobile&nbsp;phone.</p>
-			<p>Drag the pieces to make a face rotation or outside the cube to rotate the&nbsp;puzzle.</p>
-			<p>Apply a random scramble or go to full screen with the&nbsp;buttons.</p>
-		</div>
-		<div class="copyright">Chrome Cube Lab</div>
-		<a href="#cubesolver" class="scrollLink nextSection"><span>&#10148;</span> Online Solver</a>
-	</div>
-</section>-->
+
 <section>
 	<div id="cubesolver">
 		<div id="scrambler" class="cubeOrient13">
 			<div id="switchViewWrap">
 				<div id="switchView">
-					<a id="tothreeDView" title="3D view" class="active">3d</a>
-					<a id="toflatView" title="Flat view">Plain</a>
-					<a id="tokociembaView" title="Kociemba view">Kociamba</a>
+					<a id="tothreeDView" title="3D view" class="active">3D</a>
+					<a id="toflatView" title="Flat view">Flat</a>
+					<a id="tokociembaView" title="Kociemba view">Koci</a>
 				</div>
 			</div>
 			<div id="rubiksCubeSolver" class="clearfix">
@@ -1095,7 +1074,7 @@ body{text-shadow:none !important;background-image:none !important}
 
 			</div>
 		</div>
-		<div id="debugMode">
+		
 		  <div id="input">
 			<div id="generate"><button id="generateButton">Kociemba Table Generator</button></div>
 			<details id="progress" hidden="hidden">
@@ -1118,13 +1097,7 @@ body{text-shadow:none !important;background-image:none !important}
 			<span id="outputText">Solution: <span id="solution"> </span></span>
 		  </div>
 		</div>
-		<!--<div class="sectionHelp" id="solverHelp">
-			<span title="Help">?</span>
-<h2>Rubik's Cube&nbsp;Solver</h2>
-<p>Calculate the solution for a scrambled cube puzzle in only 20&nbsp;steps.</p>
-<p>Set up the scramble pattern, press the Solve button and follow the instructions.</p>
-<p>Use the color picker, apply an algorithm or use a random&nbsp;scramble.</p>
-		</div>-->
+		
 		
 		
 		
@@ -1133,208 +1106,7 @@ body{text-shadow:none !important;background-image:none !important}
 		</div>
 	</div>
 </section>
-<!--<section>
-	<div id="timer">
-		<div id="test">
-			<div id="time">
-				0.00
-			</div>
-			<div id="touchSensitive" title="Start / Stop Timer">
-			</div>
-			<div id="scrambleAlgorithm" class="algo">
-			</div>
-			<div id="timerControls">
-				<div id="timerScroller">
-					<div id="solutionTimes">
-					</div>
-					<div id="solutionStatistics">
-						<ul>
-							<li><a title="The smallest solution time"><em>Best: </em><span id="statBest"></span></a></li>
-							<li><a title="The biggest solution time"><em>Worst: </em><span id="statWorst"></span></a></li>
-							<li><a title="Average of all solution times"><em>Average: </em><span id="statAvg"></span></a></li>
-							<li class="dontShowOnMobile"><a title="The time situated in the middle when times are in increasing order"><em>Median: </em><span id="statMedian"></span></a></li>
-							<li class="dontShowOnMobile"><a title="Standard Deviation"><em>S Deviation: </em><span id="statSDeviation"></span></a></li>
-							<li><a title="Average of the last 5 times"><em>Avg 5: </em><span id="statAvgLast5"></span></a></li>
-							<li><a title="Mean of the last 5 times, not counting the best and worst results"><em>3 of 5: </em><span id="statLast3of5"></span></a></li>
-							<li class="dontShowOnMobile"><a title="The best 3 of 5 consecutive times, not counting the best and worst results"><em>Best 3 of 5: </em><span id="statBest3of5"></span></a></li>
-							<li><a title="Average of the last 10 times"><em>Avg 12: </em><span id="statAvgLast12"></span></a></li>
-							<li class="dontShowOnMobile"><a title="Mean of the last 12 times, not counting the best and worst results"><em>10 of 12: </em><span id="statLast10of12"></span></a></li>
-							<li><a title="The best 10 of 12 consecutive times, not counting the best and worst results"><em>Best 10 of 12: </em><span id="statBest10of12"></span></a></li>
-						</ul>
-					</div>
-					<div id="wrapTimerSettingz">
-						<a id="timerSettInspect">Inspection</a>
-						<a id="timerSettSound">Sounds</a>
-						<a id="timerSettScramble" class="active">Scramble</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="sectionHelp" id="timerHelp">
-			<span title="Help">?</span>
-<h2>Cube&nbsp;Timer</h2>
-<p>Measure your solution times on your journey of becoming a speedcuber!</p>
-<p>Use your Space button or click the clock to start and stop the cube&nbsp;timer.</p>
-<p>With scramble generator and instant statistics calculator.</p>
-		</div>
-		<div class="copyright">Ruwix.com</div>
-		<a href="#tutorial" class="scrollLink nextSection"><span>&#10148;</span> Tutorial</a>
-	</div>
-</section>-->
-<!--<section>
-	<div id="tutorial">
-		<div class="sectionInfo">
-			<h2>How to Solve the Rubik's&nbsp;Cube?</h2>
-			<p>The beginner's solution guide with images and easy to follow&nbsp;instructions.</p>
-		</div>
-		<div class="grid">
-			<div class="grid-item">
-				<div>
-<p>Knowing how to solve the Rubik's Cube is an impressive skill, and with a bit of patience, it’s easier to learn than you might think. You'll soon discover that solving it doesn’t require genius—just determination and&nbsp;practice!</p>
-<p>In this tutorial we are going to use the easiest layer-by-layer&nbsp;method.</p>
-				</div>
-			</div>
-			<div class="grid-item"><span>💡</span>
-				
-			</div>
-			<div class="grid-item"><span>1</span>
-				<div>
-					<div>
-						<h3>White Edges</h3>
-						<p>Let's&nbsp;start with the white face. Try to form a <strong>white plus sign</strong> on the top of the cube, making sure that the colors of the side stickers also match the colors of the lateral&nbsp;centers. This&nbsp;step shouldn't be too hard. First, try to do it without reading the examples&nbsp;below, taking the time to familiarize yourself with the&nbsp;puzzle.</p>
-						<div class="centeralign"><img width="250" height="110" src="/img/ok-bad-white-edges.png" alt="white edges correct way"></div>
-						<p>We can easily insert the edge to the top if you move it to the highlighted bottom-front spot first. Depending on where the white sticker is facing do the&nbsp;rotations.</p>
-						<div class="centeralign"><img width="400" height="93" src="/img/insert-first-edge.png" alt="insert first edge"></div>
-						<table class="fullwidth">
-							<tbody>
-								<tr>
-									<td><strong>Case A:</strong><br>White sticker facing&nbsp;down:</td>
-									<td><span class="algo">F F</span></td>
-								</tr>
-								<tr>
-									<td><strong>Case B:</strong><br>White sticker facing &nbsp;you:</td>
-									<td><span class="algo">D R F' R'</span></td>
-								</tr>
-							</tbody>
-						</table>
-						<p><strong>Case C:</strong><br>When&nbsp;the white edge is stuck between two solved edges  you can send it to the bottom layer doing&nbsp;this:</p>
-						<div class="centeralign"><span class="algo">L D L'</span></div>
-						<p><img width="100" height="100" class="floatRight" src="/img/face-rotations.png" alt="face rotation letters">I&nbsp;used&nbsp;capital letters to mark the clockwise face rotations: <strong>F</strong>&nbsp;(front), <strong>R</strong>&nbsp;(right), <strong>L</strong>&nbsp;(left), <strong>U</strong>&nbsp;(up), <strong>D</strong>&nbsp;(down).</p>
-						<p>Turns in the opposite direction are marked with an apostrophe.&nbsp;(')</p>
-						<a class="moreLink" target="_blank" rel="nofollow" href="https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/step-1-first-layer-edges/">Examples</a>
-					</div>
-				</div>
-			</div>
-			<div class="grid-item"><span>2</span>
-				<div>
-					<div>
-						<h3>Finish The White Face</h3>
-						<p><img width="130" height="130" class="floatRight" src="/img/cube-white-corners.png" alt="solve cube white corners">When&nbsp;the white edges are solved we can move on to solve the <strong>white&nbsp;corners</strong>.</p>
-						<p>First, place the white corner corresponding to the position marked by the upper arrow into one of the highlighted spots. Next, repeat the algorithm below until the white piece comes to its desired destination.</p>
-						<p class="centeralign"><span class="algo">R' D' R D</span></p>
-						<p>This trick sends the piece back and forth between the top and bottom locations, <img width="90" height="90" class="floatRight" src="/img/solved-white.png" alt="solved white face">twisting&nbsp;the corner in each&nbsp;step. Using&nbsp;this trick you can solve each white corner in less than 6&nbsp;iterations.</p>
-						<p>At the end your cube should have a solid white face with the lateral stickers matching the lateral&nbsp;centers.</p>
-						<a class="moreLink" target="_blank" rel="nofollow" href="https://cubesolve.com/#white-corners">Examples</a>
-					</div>
-				</div>
-			</div>
-			<div class="grid-item"><span>3</span>
-				<div>
-					<div>
-						<h3>Center Layer</h3>
-						<p>Turn your cube upside down because we don't need to work with the white face	 anymore.</p>
-						<p>We have a trick to insert an edge piece from the top-front position to the middle layer. Do the "Left" or "Right" algorithm depending on which side you have to insert the&nbsp;piece:</p>
-						<p class="centeralign"><img width="250" height="114" src="/img/center-layer.png" alt="how to do center layer"></p>
-						<table class="fullwidth">
-							<tbody>
-								<tr>
-									<td><strong>Left:&nbsp; </strong></td>
-									<td><span class="algo">U' L' U L U F U' F'</span></td>
-								</tr>
-								<tr>
-									<td><strong>Right:&nbsp; </strong></td>
-									<td><span class="algo">U R U' R' U' F' U F</span></td>
-								</tr>
-							</tbody>
-						</table>
-						<p><img width="90" height="90" class="floatRight" src="/img/solved-center.png" alt="solved center layer">When a center layer piece is in its correct position, but oriented incorrectly then use the same algorithm to take it out, inserting another piece to replace it temporarily.</p>
-						<p>You'll have two solved layers when you finish this stage. <br>We're almost&nbsp;there.</p>
-						<a class="moreLink" target="_blank" rel="nofollow" href="https://cubesolve.com">More...</a>
-					</div>
-				</div>
-			</div>
-			
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="grid-item"><span>4</span>
-				<div>
-					<div>
-						<h3>Yellow Cross</h3>
-						<p>Inspect the top of your cube. You will see either a dot, an L-shape, a line or a yellow cross. Our goal is to form a yellow&nbsp;cross and we have a trick to go from one state to the&nbsp;other:</p> 
-						<div class="centeralign"><img width="400" height="82" src="/img/how-to-solve-rubiks-cube.png" alt="how to solve the rubiks cube"></div>
-						<p class="centeralign"><span class="algo">F R U R' U' F'</span></p>
-						<p>Use this algorithm to shift from one shape to the next&nbsp;one.</p>
-						<a class="moreLink" target="_blank" rel="nofollow" href="https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/step-4-yellow-cross/">More...</a>
-					</div>
-				</div>
-			</div>
-			<div class="grid-item"><span>5</span>
-				<div>
-					<div>
-						<h3>Swap Edges</h3>
-						<p>We have a yellow cross on the top but the edges are not in their final position yet. They need to match the side&nbsp;colors.</p>
-						<div class="centeralign"><img width="140" height="140" src="/img/swap-yellow-edges.png" alt="swap rubiks cube edges"></div>
-						<p class="centeralign"><span class="algo">R U R' U R U U R' U</span></p>
-						<p>Use these steps to swap the front and left yellow edges in the top&nbsp;layer.</p>
-					</div>
-				</div>
-			</div>
-			<div class="grid-item"><span>6</span>
-				<div>
-					<div>
-						<h3>Cycle Corners</h3>
-						<p>Only the yellow corners are left unsolved at this&nbsp;point. Now&nbsp;we are going to put them in their final position and we'll rotate them in the last&nbsp;step.</p>
-						<p>Use the algorithm below to cycle the pieces in the direction marked with the arrows while the top-right-front piece is standing still.</p>
-						<div class="centeralign"><img width="150" height="150" src="/img/cycle-rubiks-cube-algorithm.png" alt="cycle rubik algorithm"></div>
-						<div class="centeralign"><span class="algo">U R U' L' U R' U' L</span></div>
-					</div>
-				</div>
-			</div>
-			<div class="grid-item"><span>7</span>
-				<div>
-					<div>
-						<h3>Orient Corners</h3>
-						<p>Everything is positioned, we just have to orient the yellow corners. We use the same algorithm that we used for solving the white corners in the second step:</p>
-						<p class="centeralign"><span class="algo">R' D' R D</span></p>
-						<p>This step can be confusing for most people so read the explanation very carefully and do exactly what it says!</p>
-						<p><img width="120" height="120" src="/img/rotate-final-pieces.png" alt="rotate pieces rubiks cube solution" class="floatRight">1.&nbsp;Hold&nbsp;the cube in your hand having an unsolved yellow corner in the highlighted top-right-front position. <br>
-						2. Repeat the algorithm until this piece is solved.<br>
-						3. Turn the top layer to bring another unsolved piece in the highlighted position.<br>
-						4. Repeat <strong>R' D' R D</strong> until that one is also solved.<br>
-						5. Do 3 and 4 for any other unsolved yellow corner.</p>
-						<p><strong>Important!</strong><br>⚠️ During the process it might seem that you have messed up the whole cube but don't worry because it will come together if you do it correctly, following the instructions.<br>⚠️ Always complete the whole <strong>R' D' R D</strong> algorithm, even if you see the yellow sticker pointing up. You still have to make a final D&nbsp;turn.</p>
-						<a class="moreLink" target="_blank" rel="nofollow" href="https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/orient-yellow-corners-how-to-solve-last-layer-corner/">Examples</a>
-					</div>
-				</div>
-			</div>
-			<div class="grid-item" id="video"><span>+</span>
-				<div>
-					<div>
-						<h3>Video Tutorial</h3>
-						<p>Watch these steps being explained in this video:</p>
-						<p class="centeralign"><iframe class="respVid" src="https://www.youtube.com/embed/VeeFwwAz7no?rel=0" frameborder="0" allowfullscreen></iframe></p>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-	</div>
-</section>-->
-
-
-
+	
 <script>
 $(document).ready( function(){
 	updateActiveSection();
@@ -1659,7 +1431,7 @@ ERNO.Solver.prototype.hint=function(a){console.log("%c"+a+"%c\n","background-col
 
 </script>
 	<footer>
-		This Solver solves the cube within 20 moves.<br>Developed by:- {             }
+		This Solver solves the cube within 20 moves.<br> Developed by:- {"                                       "}
 	</footer>
 </body>
 </html>
